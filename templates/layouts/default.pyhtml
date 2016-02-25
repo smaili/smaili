@@ -1,0 +1,34 @@
+{% extends "layouts/base.pyhtml" %}
+
+{% block logo %}
+<img src="{{ url_for('static', filename='img/smaili.png') }}" width="48" height="48"></img>
+{% endblock %}
+
+{% block content %}
+
+<div class="cube_wrapper">
+  <div id="mycube" class="cube">
+  {% set numwords = ["one", "two", "three", "four", "five", "six"] %}
+  {% for i in range(0, 6) %}
+    <div class="face {{ numwords[i] }}">
+      {% include "pages/" + config.pages[i] + ".pyhtml" %}
+    </div>
+  {% endfor %}
+  </div>
+  <div id="placeholder" class="cube">
+    <div class="face">
+      {% include "pages/" + config.pages[curr_page] + ".pyhtml" %}
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block javascript %}
+
+<script src="{{ url_for('static', filename='js/smaili.js') }}" type="text/javascript"></script>
+<script>
+    cube({{ curr_page + 1 }});
+</script>
+
+{% endblock %}

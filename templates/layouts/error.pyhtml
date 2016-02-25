@@ -1,0 +1,12 @@
+{% extends "layouts/base.pyhtml" %}
+
+{% block logo %}
+<img src="{{ url_for('static', filename='img/frownie.png') }}" width="48" height="48"></img>
+{% endblock %}
+
+{% block content %}
+{% include "error/generic.pyhtml" %}
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}
