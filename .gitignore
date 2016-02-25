@@ -18,14 +18,3 @@ bin-release/
 # General Excludes
 *.swp
 *.DS_Store
-
-# HeartEdu Excludes
-/heartedu.com/configs/config.app.js
-/heartedu.com/configs/config.assets.js
-
-# HeartCDN Excludes
-
-# Heart At School Excludes
-/heartatschool.com/package.json
-/heartatschool.com/node_modules
-/heartatschool.com/configs/config.assets.js
