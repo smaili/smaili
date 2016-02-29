@@ -1,0 +1,4 @@
+http://refresh-sf.com/yui/
+
+Redirect Options:
+    Redirect to gzipped output
