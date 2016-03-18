@@ -39,7 +39,7 @@
 	  </div>
 	</div>
 
-	<div class="footer">
+	#{<div class="footer">
 	  <div class="container">
 	    <p>
         Built with a little bit of <a href="http://flask.pocoo.org" target="_blank">Flask</a>, 
@@ -51,7 +51,7 @@
         <li>Michael Smaili</li>
       </ul>
 	  </div>
-	</div>
+	</div>#}
 
   <div id="no_css3" class="warning">Looks like your browser is a little old. You should <a href="http://whatbrowser.org">upgrade</a> to get the full experience!</div>
   <noscript>

@@ -1,5 +1,20 @@
 /* Bootstrap
 -------------------------------------------------- */
+.nav-tabs > li > a {
+    background: #fff;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    background-color: #eee;
+}
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+    background-color: #eee;
+}
+
 .icon-chevron-right {
   float: right;
   margin-top: 2px;
@@ -118,8 +133,12 @@
 
 /* Mine
 -------------------------------------------------- */
+body {
+  background-color: #f9fafc;
+}
+
 .berkshire {
-  color: #666;
+  color: #333;
   font-family: "Berkshire Swash";
 }
 
