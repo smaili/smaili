@@ -65,11 +65,10 @@
 }
 
 .cube .face {
-  background-color: rgba(50, 50, 50, 0.85);
-  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#505050', EndColorStr='#505050'); /* For IE6,IE7 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#505050', EndColorStr='#505050')"; /* For IE8 */
+  background-color: rgba(10, 10, 10, 0.85);
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#101010', EndColorStr='#101010'); /* For IE6,IE7 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#101010', EndColorStr='#101010')"; /* For IE8 */
 
-  border: 1px solid #555;
   border-radius: 3px;
   color: #999;
   font-size: 1em;
@@ -237,6 +236,7 @@ body {
 }
 
 #contact textarea {
+  border-color: #fff;
   resize: none;
 }
 
