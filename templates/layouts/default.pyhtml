@@ -1,7 +1,7 @@
 {% extends "layouts/base.pyhtml" %}
 
 {% block logo %}
-<img src="{{ url_for('static', filename='img/smaili.png') }}" width="48" height="48"></img>
+<img src="{{ url_for('static', filename='img/smaili.png') }}" width="57" height="48"></img>
 {% endblock %}
 
 {% block content %}
