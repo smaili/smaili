@@ -1,66 +1,18 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-
     <meta charset="utf-8"></meta>
     <title>Michael Smaili</title>
-    <meta name="description" content="Me in a cube."></meta>
+    <meta name="description" content="Me."></meta>
     <meta name="author" content="Michael Smaili"></meta>
-
-    <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet" type="text/css">
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
-    <link href="{{ url_for('static', filename='css/smaili.css') }}" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <link href="{{ url_for('static', filename='css/smaili.css') }}" rel="stylesheet"></link>
   </head>
-
   <body>
-    <div class="masthead">
-      <div class="container text-center">
-        <h1 class="berkshire">Michael Smaili</h1>{% block logo %}{% endblock %}
-      </div>
-    </div>
+    {% block content %}
+    {% endblock %}
 
-	  <div id="content" class="container">
-	    <div class="row-fluid">
-        <div class="span3 sidebar">
-          <h2 class="berkshire">Map</h2>
-          <ul id="map" class="nav nav-tabs nav-stacked">
-          {% for i in range(0, 6) %}
-            <li{% if i == curr_page %} class="active"{% endif %}><a class="face-link" href="/{{ config.pages[i] }}" data-face="{{ i + 1 }}">{{ config.pages[i].title() }}<i class="icon-chevron-right"></i></a></li>
-          {% endfor %}
-          </ul>
-        </div>
-
-        <div class="span9 main">
-        {% block content %}
-        {% endblock %}
-        </div>
-	  </div>
-	</div>
-
-	#{<div class="footer">
-	  <div class="container">
-	    <p>
-        Built with a little bit of <a href="http://flask.pocoo.org" target="_blank">Flask</a>, 
-        <a href="http://twitter.github.io/bootstrap/" target="_blank">Bootstrap</a>, and love :)
-      </p>
-      <ul class="footer-links">
-        <li>&copy; 2013</li>
-        <li class="muted">·</li>
-        <li>Michael Smaili</li>
-      </ul>
-	  </div>
-	</div>#}
-
-  <div id="no_css3" class="warning">Looks like your browser is a little old. You should <a href="http://whatbrowser.org">upgrade</a> to get the full experience!</div>
-  <noscript>
-      <div id="no_js" class="warning">Uh oh! You seem to have Javascript disabled.</div>
-  </noscript>
-
-  {% block javascript %}
-  {% endblock %}
-
+    {% block javascript %}
+    {% endblock %}
   </body>
-
 </html>

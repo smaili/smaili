@@ -1,0 +1,111 @@
+/* Base
+-------------------------------------------------- */
+html, body {
+  background: #f8f8f8;
+  color: #222;
+  font-family: HelveticaNeue, Arial, sans-serif;
+  font-size: small;
+  margin: 0;
+  -webkit-text-size-adjust: none;
+}
+
+a {
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,.1);
+}
+
+/* Main
+-------------------------------------------------- */
+
+.smaili {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  position: relative;
+  text-align: left;
+  white-space: nowrap;
+  word-wrap: break-word;
+  -webkit-overflow-scrolling: touch;
+}
+
+.cards {
+  margin: 0 auto;
+  padding: 20px 0;
+  width: 232px;
+}
+
+.cards .card {
+  background-color: #fff;
+  border-radius: 2px;
+  border: 0;
+  border-top: 3px solid #000;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  display: block;
+  margin: 0 0 10px;
+  overflow: hidden;
+  position: relative;
+  width: 232px;
+  white-space: normal;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.card .card-inner {
+  padding: 18px 16px 16px;
+}
+
+.card-inner .card-title {
+  font-size: 16px;
+  padding-bottom: 8px;
+}
+
+/* Sites
+-------------------------------------------------- */
+
+.card.twitter {
+  border-color: #55acee;
+}
+
+.card.twitter .card-title {
+  color: #55acee;
+}
+
+.card.linked-in {
+  border-color: #006699;
+}
+
+.card.linked-in .card-title {
+  color: #006699;
+}
+
+.card.github {
+  border-color: #333;
+}
+
+.card.github .card-title {
+  color: #333;
+}
+
+.card.stack-overflow {
+  border-color: #f48024;
+}
+
+.card.stack-overflow .card-title {
+  color: #f48024;
+}
+
+.card.hacker-news {
+  border-color: #ff6600;
+}
+
+.card.hacker-news .card-title {
+  color: #ff6600;
+}
+
+.card.angel-list {
+  border-color: #777;
+}
+
+.card.angel-list .card-title {
+  color: #777;
+}
