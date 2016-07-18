@@ -4,6 +4,7 @@
     { 'name': 'github', 'title': 'GitHub', 'href': 'https://github.com/smaili' },
     { 'name': 'hacker-news', 'title': 'Hacker News', 'href': 'https://news.ycombinator.com/user?id=smaili' },
     { 'name': 'linked-in', 'title': 'Linked In', 'href': 'https://www.linkedin.com/in/msmaili' },
+    { 'name': 'meetup', 'title': 'Meetup', 'href': 'http://www.meetup.com/members/187241995/' },
     { 'name': 'stack-overflow', 'title': 'Stack Overflow', 'href': 'http://stackoverflow.com/users/2407296/smaili' },
     { 'name': 'twitter', 'title': 'Twitter', 'href': 'https://twitter.com/michaelsmaili' },
   ]

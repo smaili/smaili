@@ -62,20 +62,12 @@ a {
 /* Sites
 -------------------------------------------------- */
 
-.card.twitter {
-  border-color: #55acee;
+.card.angel-list {
+  border-color: #777;
 }
 
-.card.twitter .card-title {
-  color: #55acee;
-}
-
-.card.linked-in {
-  border-color: #006699;
-}
-
-.card.linked-in .card-title {
-  color: #006699;
+.card.angel-list .card-title {
+  color: #777;
 }
 
 .card.github {
@@ -86,14 +78,6 @@ a {
   color: #333;
 }
 
-.card.stack-overflow {
-  border-color: #f48024;
-}
-
-.card.stack-overflow .card-title {
-  color: #f48024;
-}
-
 .card.hacker-news {
   border-color: #ff6600;
 }
@@ -102,10 +86,34 @@ a {
   color: #ff6600;
 }
 
-.card.angel-list {
-  border-color: #777;
+.card.linked-in {
+  border-color: #006699;
 }
 
-.card.angel-list .card-title {
-  color: #777;
+.card.linked-in .card-title {
+  color: #006699;
+}
+
+.card.meetup {
+  border-color: #ed1c40;
+}
+
+.card.meetup .card-title {
+  color: #ed1c40;
+}
+
+.card.stack-overflow {
+  border-color: #f48024;
+}
+
+.card.stack-overflow .card-title {
+  color: #f48024;
+}
+
+.card.twitter {
+  border-color: #55acee;
+}
+
+.card.twitter .card-title {
+  color: #55acee;
 }
