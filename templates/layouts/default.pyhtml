@@ -1,5 +1,5 @@
 {% extends "layouts/base.pyhtml" %}
 
 {% block content %}
-{% include "pages/index.pyhtml" %}
+{% include "pages/" + page + ".pyhtml" %}
 {% endblock %}

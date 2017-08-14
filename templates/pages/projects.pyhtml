@@ -1,0 +1,28 @@
+{%
+  set cards = [
+    { 'name': 'project', 'title': 'Glitch', 'href': 'http://glitch.xyz' },
+    { 'name': 'project', 'title': 'LT30', 'href': 'http://lt30.com' },
+    { 'name': 'project', 'title': 'RipTo', 'href': 'http://rip.to' },
+  ]
+%}
+{#
+    { 'name': 'project', 'title': 'Bout', 'href': 'http://bout.gg' },
+    { 'name': 'project', 'title': 'Morty', 'href': 'http://morty.com' },
+    { 'name': 'project', 'title': 'Paindea', 'href': 'http://paindea.com' },
+#}
+
+<div class="smaili">
+  <div class="cards">
+    <div class="card-wrap">
+    {% for card in cards %}
+      <div class="card {{ card.name }}">
+        <a href="{{ card.href }}">
+          <div class="card-inner">
+            <div class="card-title">{{ card.title }}</div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+</div>

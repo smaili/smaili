@@ -18,3 +18,5 @@ bin-release/
 # General Excludes
 *.swp
 *.DS_Store
+*.pyc
+venv/

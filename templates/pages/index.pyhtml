@@ -1,8 +1,9 @@
 {%
-  set places = [
+  set cards = [
     { 'name': 'angel-list', 'title': 'AngelList', 'href': 'https://angel.co/smaili' },
     { 'name': 'github', 'title': 'GitHub', 'href': 'https://github.com/smaili' },
     { 'name': 'hacker-news', 'title': 'Hacker News', 'href': 'https://news.ycombinator.com/user?id=smaili' },
+    { 'name': 'keybase', 'title': 'Keybase', 'href': 'https://keybase.io/smaili' },
     { 'name': 'linked-in', 'title': 'Linked In', 'href': 'https://www.linkedin.com/in/msmaili' },
     { 'name': 'meetup', 'title': 'Meetup', 'href': 'http://www.meetup.com/members/187241995/' },
     { 'name': 'stack-overflow', 'title': 'Stack Overflow', 'href': 'http://stackoverflow.com/users/2407296/smaili' },
@@ -13,11 +14,11 @@
 <div class="smaili">
   <div class="cards">
     <div class="card-wrap">
-    {% for place in places %}
-      <div class="card {{ place.name }}">
-        <a href="{{ place.href }}">
+    {% for card in cards %}
+      <div class="card {{ card.name }}">
+        <a href="{{ card.href }}">
           <div class="card-inner">
-            <div class="card-title">{{ place.title }}</div>
+            <div class="card-title">{{ card.title }}</div>
           </div>
         </a>
       </div>

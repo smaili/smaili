@@ -17,7 +17,11 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return minify(render_template('layouts/default.pyhtml'))
+  return minify(render_template('layouts/default.pyhtml', page='index'))
+
+@app.route('/projects')
+def projects():
+  return minify(render_template('layouts/default.pyhtml', page='projects'))
 
 @app.errorhandler(404)
 def error_404(e):

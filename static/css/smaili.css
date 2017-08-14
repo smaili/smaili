@@ -86,6 +86,14 @@ a {
   color: #ff6600;
 }
 
+.card.keybase {
+  border-color: #855b3c;
+}
+
+.card.keybase .card-title {
+  color: #855b3c;
+}
+
 .card.linked-in {
   border-color: #006699;
 }
@@ -102,6 +110,14 @@ a {
   color: #ed1c40;
 }
 
+.card.projects {
+  border-color: #22869c;
+}
+
+.card.projects .card-title {
+  color: #22869c;
+}
+
 .card.stack-overflow {
   border-color: #f48024;
 }
@@ -116,4 +132,14 @@ a {
 
 .card.twitter .card-title {
   color: #55acee;
+}
+
+/* Projects
+-------------------------------------------------- */
+.card.project {
+  border-color: #218cb8;
+}
+
+.card.project .card-title {
+  color: #777;
 }
